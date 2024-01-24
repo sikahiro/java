@@ -10,12 +10,12 @@ class Calculator{
     int getY(){return y;}
     int calcSum(){
         int sum=0;
-        sum=x+y;
+        sum=this.x+this.y;
         return sum;
     }
     int calcAve(){
         int ave=0;
-        ave=(x+y)/2;
+        ave=(this.x+this.y)/2;
         return ave;
     }
 }
@@ -32,12 +32,12 @@ class MoreCalc extends Calculator{
 
 class Calc {
     public static void main(String[] args){
-        MoreCalc a =new MoreCalc(0,0);
+        MoreCalc Mo =new MoreCalc(0,0);
         Scanner as=new Scanner(System.in);
-        System.out.print("整数値を入力");a.x=as.nextInt();
-        System.out.print("整数値を入力");a.y=as.nextInt();
-        System.out.println("Sum"+a.getX()+"And"+a.getY()+"="+a.calcSum());
-        System.out.println("Average"+a.getX()+"And"+a.getY()+"="+a.calcAve());
-        System.out.println("Power"+a.getX()+"Of"+a.getY()+"="+a.calcPow());
+        System.out.print("整数値を入力");Mo.x=as.nextInt();
+        System.out.print("整数値を入力");Mo.y=as.nextInt();
+        System.out.println("Sum"+Mo.getX()+"And"+Mo.getY()+"="+Mo.calcSum());
+        System.out.println("Average"+Mo.getX()+"And"+Mo.getY()+"="+Mo.calcAve());
+        System.out.println("Power"+Mo.getX()+"Of"+Mo.getY()+"="+Mo.calcPow());
     }
 }
