@@ -1,4 +1,4 @@
-package Test13;
+package Test13.L13_2;
 
 public class Person3tester {
     public static void main(String[] args){
