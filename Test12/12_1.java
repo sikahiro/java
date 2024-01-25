@@ -30,7 +30,7 @@ class MoreCalc extends Calculator{
     }
 }
 
-class Calc {
+class Main {
     public static void main(String[] args){
         MoreCalc Mo =new MoreCalc(0,0);
         Scanner as=new Scanner(System.in);

@@ -22,8 +22,6 @@ class Teacher extends Person{
         super(name, job);
         this.subject=subject;
     }
-    // 自己紹介をするメソッド（オーバーライド）
-    @Override
     public void introduce(){
         // 親クラスのメソッドを呼び出す
         super.introduce();
@@ -38,8 +36,6 @@ class Cook extends Person {
         super(name, job);
         this.favorite=favorite;
     }
-    // 自己紹介をするメソッド（オーバーライド）
-    @Override
     public void introduce(){
         super.introduce();
         System.out.println("得意料理:"+this.favorite);
