@@ -10,13 +10,9 @@ public class Cook3 implements Person3 {
         this.job=job;
         this.specialties=specialties;
     }
-    @Override public void nameP(){
+    @Override public void introduce(){
         System.out.println("氏名:"+this.name);
-    }
-    @Override public void jobP(){
         System.out.println("職種:"+this.job);
-    }
-    @Override public void showFa(){
         System.out.println("得意料理:"+this.specialties);
     }
 }

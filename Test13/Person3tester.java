@@ -7,9 +7,7 @@ public class Person3tester {
         a[1]=new Cook3("大原太郎","シェフ","オムライス");
 
         for (Person3 P:a){
-            P.nameP();
-            P.jobP();
-            P.showFa();
+            P.introduce();
             System.out.println();
         }
     }
