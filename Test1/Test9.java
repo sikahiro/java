@@ -1,4 +1,4 @@
-package Test;
+package Test1;
 import java.util.Scanner;
 class Test9 {
     public static void main(String[] args){

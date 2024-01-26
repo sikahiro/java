@@ -1,4 +1,4 @@
-package Test;
+package Test1;
 class Test7 {
     public static void main(String[] args){
         String capital;
