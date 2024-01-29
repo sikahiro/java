@@ -10,9 +10,8 @@ public class L14_5 {
         System.out.print("【内容2】");
         String toi =gg.nextLine();
         StringBuilder s1 = new StringBuilder();
-        StringBuilder s2 = new StringBuilder();
         s1.append(to);
-        s2.append(toi);
-        System.out.println(s1.append(s2));
+        s1.append(toi);
+        System.out.println(s1);
     }
 }
