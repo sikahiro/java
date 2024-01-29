@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class L14_3 {
     public static void main(String[] args){
-        Scanner sc =new Scanner(System.in);
+        Scanner sc =new Scanner(System.in,"shift-jis");
         System.out.print("文字列を入力:");
         String set =sc.nextLine();
         StringBuilder si = new StringBuilder();
