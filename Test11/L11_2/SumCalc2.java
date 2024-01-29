@@ -1,4 +1,4 @@
-package Test11;
+package Test11.L11_2;
 import java.util.Scanner;
 class SumCalc2 {
     public static void main(String[] args){

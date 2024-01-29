@@ -1,4 +1,4 @@
-package Test11;
+package Test11.L11_2;
 
 class SumCalc {
     int x;

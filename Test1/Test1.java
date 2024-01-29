@@ -1,5 +1,5 @@
 package Test1;
-class test1 {
+class Test1 {
     public static void main(String[] args){
         System.out.println("あいうえお");
     }

@@ -1,4 +1,4 @@
-package Test11;
+package Test11.L11_7;
 
 public class Student {
     String name;

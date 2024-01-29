@@ -1,4 +1,4 @@
-package Test11;
+package Test11.L11_3;
 import java.util.Scanner;
 class Calc2 {
     public static void main(String[] args){

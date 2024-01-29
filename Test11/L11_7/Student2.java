@@ -1,4 +1,4 @@
-package Test11;
+package Test11.L11_7;
 
 class Student2{
     public static void main(String[] args){
