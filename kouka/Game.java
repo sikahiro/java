@@ -50,6 +50,7 @@ public class Game extends Jewel{
         }
         // ループ終了後、解答終了とスコアとミス数を表示
         System.out.println("解答終了\nスコア"+getscore()+"\nミス数"+getmiss());
+        System.out.println("-----------");
     }
     // jewelgameメソッドで宝石の名前のタイピングゲームを行う
     public void jewelgame(){
@@ -75,5 +76,6 @@ public class Game extends Jewel{
         }
         // ループ終了後、解答終了とスコアとミス数を表示
         System.out.println("解答終了\nスコア"+getscore()+"\nミス数"+getmiss());
+        System.out.println("---------");
     }   
 }
